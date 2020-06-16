@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Anton&family=Fjalla+One&family=Oswald:wght@700&display=swap');
 
 
 body {
@@ -36,10 +36,28 @@ body {
 }
 
 
+.intro {
 
+  font-family: 'Anton', sans-serif;
+  /* font-family: 'Fjalla One', sans-serif; */
+  /* font-family: 'Oswald', sans-serif; */
+  font-size: 3rem;
+  word-spacing: 12px;
+  font-weight: 200;
 
+}
 
+.body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
 
+.resume{
+  text-decoration: underline;
+  font-size: 2.5rem;
+  color: black;
+}
 
 
 
@@ -55,5 +73,14 @@ body {
   .title {
     font-size: 4em;
     text-align: center;
+  }
+
+  .intro {
+    font-size: 2rem;
+    word-spacing: 4px;
+  }
+
+  .body {
+    font-size: large;
   }
 }
