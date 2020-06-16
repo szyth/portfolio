@@ -1,122 +1,59 @@
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Oswald:wght@700&display=swap');
 
-html, body {
-  height: 100%;
-  width: 100%;
-}
 
 body {
-  padding: 50px;
-  margin: 0;
-  overflow: hidden;
-  background-color: #FAFAFA;
+  background: rgb(245, 245, 245);
 }
 
-@-webkit-keyframes swinging {
-  0% {
-    -webkit-transform: rotate(10deg);
-  }
-  50% {
-    -webkit-transform: rotate(-5deg);
-  }
-  100% {
-    -webkit-transform: rotate(10deg);
-  }
-}
-@keyframes swinging {
-  0% {
-    transform: rotate(10deg);
-  }
-  50% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotate(10deg);
-  }
-}
-@-webkit-keyframes sleeping {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sleeping {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-#swinger {
-  -webkit-transform-origin: top center;
-  transform-origin: top center;
-  transform-box: fill-box;
-  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
-  animation: swinging 3.5s ease-in-out forwards infinite;
+::selection {
+  background: #ffb7b7;
+  /* WebKit/Blink Browsers */
 }
 
-#zone {
-  opacity: 0;
-  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation: sleeping 3.5s ease-in-out forwards infinite;
+::-moz-selection {
+  background: #ffb7b7;
+  /* Gecko Browsers */
 }
 
-#ztwo {
-  opacity: 0;
-  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation-delay: 0.4s;
-  -website-animation-delay: 0.4s;
+.name {
+  /* font-family: 'Anton', sans-serif; */
+  /* font-family: 'Fjalla One', sans-serif; */
+  font-family: 'Oswald', sans-serif;
+  font-size: xx-large;
+  margin-top: 5rem;
 }
 
-#zthree {
-  opacity: 0;
-  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation-delay: 0.7s;
-  -website-animation-delay: 0.7s;
+.title {
+  font-family: 'Anton', sans-serif;
+  font-size: 7em;
+
 }
 
-#zfour {
-  opacity: 0;
-  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation-delay: 1s;
-  -website-animation-delay: 1s;
+.image {
+  width: 100%;
+  height: auto;
+  padding: 0 3rem 3rem 3rem;
 }
 
-#zfive {
-  opacity: 0;
-  -webkit-animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation: sleeping 3.5s ease-in-out forwards infinite;
-  animation-delay: 1.3s;
-  -website-animation-delay: 1.3s;
-}
 
-.container {
-  text-align: center;
-}
 
-svg {
-  max-width: 1000px;
-}
-.image{
-  /* background: url('../img/logo.jpeg'); */
-  color: rgb(177, 177, 197) !important;
-  background-color: rgb(216, 0, 0) !important;
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+  .name {
+    font-size: x-large;
+    text-align: center;
+
+  }
+
+  .title {
+    font-size: 4em;
+    text-align: center;
+  }
 }
