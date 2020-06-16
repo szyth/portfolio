@@ -3,6 +3,21 @@
 
 body {
   background: rgb(245, 245, 245);
+  font-family: 'Montserrat', sans-serif !important;
+
+}
+
+
+
+li {
+  /* text-decoration: underline; */
+  font-size: 1.5rem;
+  font-weight: 100;
+
+}
+
+a {
+  color: black !important;
 }
 
 ::selection {
@@ -29,6 +44,10 @@ body {
 
 }
 
+.wrapper {
+  overflow: hidden;
+}
+
 .image {
   max-height: 100%;
   width: 100%;
@@ -49,22 +68,18 @@ body {
 }
 
 .body {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
 }
 
-.resume {
-  text-decoration: underline;
+.subhead {
   font-size: 1.9rem;
-  color: black;
+  text-decoration: underline;
   font-weight: 600;
 }
 
-.links {
-  font-size: 1.5rem;
-  font-weight: 100;
-
+p .nomargin {
+  margin: 0 !important;
 }
 
 
@@ -88,6 +103,11 @@ body {
 
   .body {
     font-size: large;
+  }
+
+  .subhead {
+    font-size: 1.7rem;
+
   }
 
   .image {
