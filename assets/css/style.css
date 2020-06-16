@@ -30,6 +30,7 @@ body {
 }
 
 .image {
+  max-height: 100%;
   width: 100%;
   height: auto;
   padding: 0 3rem 3rem 3rem;
@@ -53,13 +54,18 @@ body {
   font-size: 1.8rem;
 }
 
-.resume{
+.resume {
   text-decoration: underline;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   color: black;
+  font-weight: 600;
 }
 
+.links {
+  font-size: 1.5rem;
+  font-weight: 100;
 
+}
 
 
 
@@ -82,5 +88,11 @@ body {
 
   .body {
     font-size: large;
+  }
+
+  .image {
+    padding: 0;
+    width: 145%;
+
   }
 }
