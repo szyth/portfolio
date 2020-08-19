@@ -4,7 +4,7 @@ body {
 
 
 .article_bg {
-    height: 200vh;    
+    height: 200vh;
     background-color: rgb(233, 229, 215);
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
     padding: 2%;
@@ -16,24 +16,24 @@ body {
 }
 
 .header_text {
-    font-family: title_font;
+    font-family: font2;
     float: right;
     color: rgb(82, 82, 82);
 
 }
 
 .divider_thin {
-    border-bottom: solid #000 4px;
+    border-bottom: solid rgb(19, 19, 19) 4px;
     margin-bottom: 3px;
 }
 
 .divider_thick {
-    border-bottom: solid #000 8px;
+    border-bottom: solid rgb(20, 20, 20) 8px;
 
 }
 
 .article_name {
-    font-family: name_font;
+    font-family: font1;
     color: rgb(37, 37, 37);
     font-size: 7rem;
     margin: 0;
@@ -41,10 +41,43 @@ body {
 }
 
 .article_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.article_title h1 {
     color: rgb(59, 59, 59);
-    font-family: title_font;
+    font-family: font2;
     line-height: 6rem;
     padding: 0;
     margin: 0;
     font-size: 8rem;
+}
+
+
+.navbar {
+    padding: 0;
+    margin: 10px !important;
+}
+
+.navbar h1 {
+    font-family: font3;
+    padding: 0;
+    margin: 0 !important;
+    font-size: 2rem;
+}
+
+.navbar a {
+    color: black;
+}
+
+
+.dot {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+    background-color: rgb(148, 148, 148);
+    border-radius: 50%;
+    display: inline-block;
 }

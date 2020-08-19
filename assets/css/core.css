@@ -1,8 +1,13 @@
 @font-face {
-    font-family: name_font;
+    font-family: font1;
     src: url(../fonts/ShockingHeadline-vYKA.ttf);
   }
   @font-face {
-    font-family: title_font;
+    font-family: font2;
     src: url(../fonts/Typoster-yJ75.ttf);
+  }
+
+  @font-face {
+    font-family: font3;
+    src: url(../fonts/Deutschlander.otf);
   }
