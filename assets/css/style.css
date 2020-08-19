@@ -1,118 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Anton&family=Fjalla+One&family=Oswald:wght@700&display=swap');
-
-
 body {
-  background: rgb(245, 245, 245);
-  font-family: 'Montserrat', sans-serif !important;
-
+    background-color: rgb(190, 190, 190);
 }
 
 
+.article_bg {
+    height: 200vh;    
+    background-color: rgb(233, 229, 215);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+}
 
-li {
-  /* text-decoration: underline; */
-  font-size: 1.5rem;
-  font-weight: 100;
+.barcode {
+    width: 13%;
+    height: auto;
+}
+
+.header_text {
+    font-family: title_font;
+    float: right;
+    color: rgb(82, 82, 82);
 
 }
 
-a {
-  color: black !important;
+.divider_thin {
+    border-bottom: solid #000 4px;
+    margin-bottom: 3px;
 }
 
-::selection {
-  background: #ffb7b7;
-  /* WebKit/Blink Browsers */
-}
-
-::-moz-selection {
-  background: #ffb7b7;
-  /* Gecko Browsers */
-}
-
-.name {
-  /* font-family: 'Anton', sans-serif; */
-  /* font-family: 'Fjalla One', sans-serif; */
-  font-family: 'Oswald', sans-serif;
-  font-size: xx-large;
-  margin-top: 5rem;
-}
-
-.title {
-  font-family: 'Anton', sans-serif;
-  font-size: 7em;
+.divider_thick {
+    border-bottom: solid #000 8px;
 
 }
 
-.wrapper {
-  overflow: hidden;
+.article_name {
+    font-family: name_font;
+    color: rgb(37, 37, 37);
+    font-size: 7rem;
+    margin: 0;
+    text-transform: uppercase;
 }
 
-.image {
-  max-height: 100%;
-  width: 100%;
-  height: auto;
-  padding: 0 3rem 3rem 3rem;
-}
-
-
-.intro {
-
-  font-family: 'Anton', sans-serif;
-  /* font-family: 'Fjalla One', sans-serif; */
-  /* font-family: 'Oswald', sans-serif; */
-  font-size: 3rem;
-  word-spacing: 12px;
-  font-weight: 200;
-
-}
-
-.body {
-  font-weight: 500;
-  font-size: 1.8rem;
-}
-
-.subhead {
-  font-size: 1.9rem;
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-p .nomargin {
-  margin: 0 !important;
-}
-
-
-
-@media(max-width:768px) {
-  .name {
-    font-size: x-large;
-    text-align: center;
-
-  }
-
-  .title {
-    font-size: 4em;
-    text-align: center;
-  }
-
-  .intro {
-    font-size: 2rem;
-    word-spacing: 4px;
-  }
-
-  .body {
-    font-size: large;
-  }
-
-  .subhead {
-    font-size: 1.7rem;
-
-  }
-
-  .image {
+.article_title {
+    color: rgb(59, 59, 59);
+    font-family: title_font;
+    line-height: 6rem;
     padding: 0;
-    width: 145%;
-
-  }
+    margin: 0;
+    font-size: 8rem;
 }
