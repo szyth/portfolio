@@ -1,13 +1,27 @@
 @font-face {
     font-family: font1;
     src: url(../fonts/ShockingHeadline-vYKA.ttf);
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: font2;
     src: url(../fonts/Typoster-yJ75.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: font3;
     src: url(../fonts/Deutschlander.otf);
-  }
+}
+
+@font-face {
+    font-family: font4;
+    src: url(../fonts/BroadsheetBubble-Lz1g.ttf);
+}
+
+@font-face {
+    font-family: font5;
+    src: url(../fonts/TakeMeOn-gg43.ttf);
+}@font-face {
+    font-family: font6;
+    src: url(../fonts/OldNewspaperTypes.ttf);
+}

@@ -4,7 +4,6 @@ body {
 
 
 .article_bg {
-    height: 200vh;
     background-color: rgb(233, 229, 215);
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
     padding: 2%;
@@ -21,14 +20,17 @@ body {
     color: rgb(82, 82, 82);
 
 }
-
+.divider_thinner{
+    border-bottom: solid rgb(19, 19, 19) 2px;
+    margin-bottom: 3px;
+}
 .divider_thin {
     border-bottom: solid rgb(19, 19, 19) 4px;
     margin-bottom: 3px;
 }
 
 .divider_thick {
-    border-bottom: solid rgb(20, 20, 20) 8px;
+    border-bottom: solid rgb(26, 26, 26) 8px;
 
 }
 
@@ -72,6 +74,10 @@ body {
     color: black;
 }
 
+.navbar a:hover {
+    color: rgb(110, 110, 110);
+    transition: ease 250ms;
+}
 
 .dot {
     margin-right: 10px;
@@ -80,4 +86,22 @@ body {
     background-color: rgb(148, 148, 148);
     border-radius: 50%;
     display: inline-block;
+}
+
+.desc_title {}
+
+.desc_title h5 {
+    color: #161616;
+    font-family: font5;
+    display: flex;
+    align-items: center;
+
+}
+
+.desc_title p {
+    color: #161616;
+    font-family: font6;
+    font-size: 1.2rem;
+    margin: 0;
+
 }
